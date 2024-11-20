@@ -2,7 +2,7 @@
 
 ![Thumbnail](css/assets/thumbnail.png)
 
-Link to project: ()
+Link to project: (https://uvindexchecker.netlify.app/)
 
 
 ## How It's Made:
