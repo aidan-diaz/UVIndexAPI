@@ -1,22 +1,19 @@
-# 📊 Project: Complex API 2
+# UV Index API
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![Thumbnail](css/assets/thumbnail.png)
 
-### How to submit your code for review:
+Link to project: ()
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+Tech used: HTML, CSS, JS
+
+This application makes two fetch requests - one to https://ipinfo.io to grab the user's current latitude and longitude, which are then plugged into the https://currentuvindex.com/api API to grab the current UV index at that location.
+
+## Optimizations
+
+This application does not store either of its fetch requests in functions - it simply makes both requests on pageload. By doing this, the user can visit the site and immediately receive their local UV Index, optimizing the overall experience.
+
+## Lessons Learned
+
+This project taught me how to use data returned from one API to make a request to another API to produce a simple but useful application.
